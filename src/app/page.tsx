@@ -71,11 +71,11 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-chatting-desk_23-2149345216.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-chatting-desk_23-2149345216.jpg?_wi=1",
           imageAlt: "Graphic Design Strategy Concept 1",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-abstract-egg-yolk-oil_23-2148231619.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-abstract-egg-yolk-oil_23-2148231619.jpg?_wi=1",
           imageAlt: "Graphic Design Strategy Concept 2",
         },
         {
@@ -149,7 +149,7 @@ export default function LandingPage() {
             },
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-chatting-desk_23-2149345216.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-chatting-desk_23-2149345216.jpg?_wi=2",
           imageAlt: "Female executive reading sticky notes",
         },
         {
@@ -166,7 +166,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-abstract-egg-yolk-oil_23-2148231619.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-abstract-egg-yolk-oil_23-2148231619.jpg?_wi=2",
           imageAlt: "Female executive reading sticky notes",
         },
       ]}
