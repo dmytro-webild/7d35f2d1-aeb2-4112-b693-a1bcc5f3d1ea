@@ -3,9 +3,9 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactCenter from '@/components/sections/contact/ContactCenter';
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
+import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardTen from '@/components/sections/feature/FeatureCardTen';
-import FooterCard from '@/components/sections/footer/FooterCard';
+import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
@@ -135,15 +135,17 @@ export default function LandingPage() {
   </div>
 
   <div id="faq" data-section="faq">
-      <FaqSplitText
+      <FaqBase
+      title="Agency FAQs"
+      description="Everything you need to know about partnering with Posters By Sid."
       useInvertedBackground={true}
-      faqs={[
-        { id: "f1", title: "What is your design process?", content: "We follow a holistic approach starting with strategy, moving into design execution, and finishing with brand alignment." },
-        { id: "f2", title: "How long does a project take?", content: "Timelines vary depending on project scope; we define specific project milestones and delivery dates upfront." },
-        { id: "f3", title: "Do you provide consultations?", content: "Yes, we encourage consultations to understand your marketing goals and creative vision." },
-      ]}
-      sideTitle="Frequently Asked Questions"
       faqsAnimation="slide-up"
+      textboxLayout="split"
+      faqs={[
+        { id: "f1", title: "What defines your design process?", content: "We combine strategic research with iterative creative sessions to ensure your brand stands out in the marketplace." },
+        { id: "f2", title: "How do we collaborate on projects?", content: "We use a dedicated project management channel to keep transparency high and communication swift throughout the lifecycle." },
+        { id: "f3", title: "Are custom packages available?", content: "Yes, we tailor every scope of work to fit your specific brand goals and budget constraints." },
+      ]}
     />
   </div>
 
@@ -152,20 +154,19 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{ variant: "plain" }}
       tag="Contact"
-      title="Start Your Project"
-      description="Ready to work with Posters By Sid? Reach out to us today to get started."
+      title="Get a Proposal"
+      description="Fill out the form below to receive a custom proposal for your branding and marketing needs."
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterCard
-      logoText="Posters By Sid"
-      copyrightText="© 2025 Posters By Sid. All rights reserved."
-      socialLinks={[
-        { icon: Twitter, href: "#", ariaLabel: "Twitter" },
-        { icon: Instagram, href: "#", ariaLabel: "Instagram" },
-        { icon: Linkedin, href: "#", ariaLabel: "LinkedIn" },
+      <FooterSimple
+      columns={[
+          { title: "Agency", items: [{ label: "About Us", href: "#about" }, { label: "Portfolio", href: "#portfolio" }, { label: "Our Services", href: "#services" }] },
+          { title: "Support", items: [{ label: "FAQs", href: "#faq" }, { label: "Inquiries", href: "#contact" }] }
       ]}
+      bottomLeftText="© 2025 Posters By Sid"
+      bottomRightText="Creative agency based in NYC"
     />
   </div>
       </ReactLenis>
