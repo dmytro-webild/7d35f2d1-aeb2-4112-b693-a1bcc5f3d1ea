@@ -48,8 +48,8 @@ export default function LandingPage() {
       description="Graphic Designing & Marketing expert services tailored for your vision. View our work and transform your brand identity."
       buttons={[{ text: "View Our Work", href: "#portfolio" }]}
       mediaItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-chatting-desk_23-2149345216.jpg", imageAlt: "Graphic Design Strategy Concept 1" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/close-up-abstract-egg-yolk-oil_23-2148231619.jpg", imageAlt: "Graphic Design Strategy Concept 2" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-chatting-desk_23-2149345216.jpg?_wi=1", imageAlt: "Graphic Design Strategy Concept 1" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/close-up-abstract-egg-yolk-oil_23-2148231619.jpg?_wi=1", imageAlt: "Graphic Design Strategy Concept 2" },
         { imageSrc: "http://img.b2bpic.net/free-photo/young-coworkers-discussing-work-subject_23-2147668781.jpg", imageAlt: "Graphic Design Strategy Concept 3" },
         { imageSrc: "http://img.b2bpic.net/free-photo/still-life-graphic-design-office_23-2151345458.jpg", imageAlt: "Graphic Design Strategy Concept 4" },
         { imageSrc: "http://img.b2bpic.net/free-photo/minimalist-desk-setup-with-lamp-notebook-stationery_23-2151968869.jpg", imageAlt: "Graphic Design Strategy Concept 5" },
@@ -86,12 +86,12 @@ export default function LandingPage() {
         {
           title: "Content Strategy",          description: "Persuasive copywriting and content marketing solutions.",          items: [{ icon: Type, text: "Copywriting" }, { icon: Target, text: "SEO Copy" }],
           reverse: true,
-          media: { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-chatting-desk_23-2149345216.jpg", imageAlt: "Female executive reading sticky notes" }
+          media: { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-chatting-desk_23-2149345216.jpg?_wi=2", imageAlt: "Female executive reading sticky notes" }
         },
         {
           title: "Creative Direction",          description: "Visionary guidance to unify your brand aesthetics.",          items: [{ icon: Camera, text: "Art Direction" }, { icon: Briefcase, text: "Brand Management" }],
           reverse: false,
-          media: { imageSrc: "http://img.b2bpic.net/free-photo/close-up-abstract-egg-yolk-oil_23-2148231619.jpg", imageAlt: "Female executive reading sticky notes" }
+          media: { imageSrc: "http://img.b2bpic.net/free-photo/close-up-abstract-egg-yolk-oil_23-2148231619.jpg?_wi=2", imageAlt: "Female executive reading sticky notes" }
         },
       ]}
       title="Our Expert Services"
